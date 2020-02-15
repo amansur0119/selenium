@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="motgagecalc">
+        <methods>
+          <include name="StartDate"/>
+          <include name="interstrate"/>
+          <include name="BuyorRefill"/>
+          <include name="PMI"/>
+          <include name="CreditRating"/>
+          <include name="loanterm"/>
+          <include name="LoanType"/>
+          <include name="propertytax"/>
+          <include name="Homeval"/>
+          <include name="downpayment"/>
+          <include name="HomeIns"/>
+          <include name="Submit"/>
+          <include name="openbrowser"/>
+          <include name="MonthlyHOA"/>
+          <include name="Loanamount"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- motgagecalc -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
